@@ -1,0 +1,409 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3D59502737158C00D6AE50 /* explosionSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD3D594F2737158C00D6AE50 /* explosionSound.mp3 */; };
+		FD3D595227371B0600D6AE50 /* bulletSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FD3D595127371B0600D6AE50 /* bulletSound.mp3 */; };
+		FD3D595427371E8300D6AE50 /* theboldfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FD3D595327371E3F00D6AE50 /* theboldfont.ttf */; };
+		FDB0C0E0273578D600A2FCD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0C0DF273578D600A2FCD4 /* AppDelegate.swift */; };
+		FDB0C0E2273578D600A2FCD4 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDB0C0E1273578D600A2FCD4 /* GameScene.sks */; };
+		FDB0C0E4273578D600A2FCD4 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = FDB0C0E3273578D600A2FCD4 /* Actions.sks */; };
+		FDB0C0E6273578D600A2FCD4 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0C0E5273578D600A2FCD4 /* GameScene.swift */; };
+		FDB0C0E8273578D600A2FCD4 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB0C0E7273578D600A2FCD4 /* GameViewController.swift */; };
+		FDB0C0EB273578D600A2FCD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB0C0E9273578D600A2FCD4 /* Main.storyboard */; };
+		FDB0C0ED273578D800A2FCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDB0C0EC273578D800A2FCD4 /* Assets.xcassets */; };
+		FDB0C0F0273578D800A2FCD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDB0C0EE273578D800A2FCD4 /* LaunchScreen.storyboard */; };
+		FDD21D7A2739CBCC00E2BC20 /* MainMenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD21D792739CBCC00E2BC20 /* MainMenuScene.swift */; };
+		FDD21D7C2739DD5100E2BC20 /* backingAudio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDD21D7B2739DD5100E2BC20 /* backingAudio.mp3 */; };
+		FDFFE99727386B5F008FEB60 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFFE99627386B5F008FEB60 /* GameOverScene.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD3D594F2737158C00D6AE50 /* explosionSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosionSound.mp3; sourceTree = "<group>"; };
+		FD3D595127371B0600D6AE50 /* bulletSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bulletSound.mp3; sourceTree = "<group>"; };
+		FD3D595327371E3F00D6AE50 /* theboldfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = theboldfont.ttf; sourceTree = "<group>"; };
+		FD3D595527371ED900D6AE50 /* Rocket-Game-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Rocket-Game-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FDB0C0DC273578D600A2FCD4 /* Rocket Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDB0C0DF273578D600A2FCD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDB0C0E1273578D600A2FCD4 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		FDB0C0E3273578D600A2FCD4 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		FDB0C0E5273578D600A2FCD4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		FDB0C0E7273578D600A2FCD4 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		FDB0C0EA273578D600A2FCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDB0C0EC273578D800A2FCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDB0C0EF273578D800A2FCD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDD21D792739CBCC00E2BC20 /* MainMenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuScene.swift; sourceTree = "<group>"; };
+		FDD21D7B2739DD5100E2BC20 /* backingAudio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = backingAudio.mp3; sourceTree = "<group>"; };
+		FDFFE99627386B5F008FEB60 /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDB0C0D9273578D600A2FCD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDB0C0D3273578D600A2FCD4 = {
+			isa = PBXGroup;
+			children = (
+				FDB0C0DE273578D600A2FCD4 /* Rocket Game */,
+				FDB0C0DD273578D600A2FCD4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDB0C0DD273578D600A2FCD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDB0C0DC273578D600A2FCD4 /* Rocket Game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDB0C0DE273578D600A2FCD4 /* Rocket Game */ = {
+			isa = PBXGroup;
+			children = (
+				FD3D595527371ED900D6AE50 /* Rocket-Game-Info.plist */,
+				FDB0C0DF273578D600A2FCD4 /* AppDelegate.swift */,
+				FDB0C0E1273578D600A2FCD4 /* GameScene.sks */,
+				FDB0C0E3273578D600A2FCD4 /* Actions.sks */,
+				FDD21D792739CBCC00E2BC20 /* MainMenuScene.swift */,
+				FDB0C0E5273578D600A2FCD4 /* GameScene.swift */,
+				FDFFE99627386B5F008FEB60 /* GameOverScene.swift */,
+				FDB0C0E7273578D600A2FCD4 /* GameViewController.swift */,
+				FD3D595127371B0600D6AE50 /* bulletSound.mp3 */,
+				FD3D594F2737158C00D6AE50 /* explosionSound.mp3 */,
+				FDD21D7B2739DD5100E2BC20 /* backingAudio.mp3 */,
+				FD3D595327371E3F00D6AE50 /* theboldfont.ttf */,
+				FDB0C0E9273578D600A2FCD4 /* Main.storyboard */,
+				FDB0C0EC273578D800A2FCD4 /* Assets.xcassets */,
+				FDB0C0EE273578D800A2FCD4 /* LaunchScreen.storyboard */,
+			);
+			path = "Rocket Game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDB0C0DB273578D600A2FCD4 /* Rocket Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDB0C0F3273578D800A2FCD4 /* Build configuration list for PBXNativeTarget "Rocket Game" */;
+			buildPhases = (
+				FDB0C0D8273578D600A2FCD4 /* Sources */,
+				FDB0C0D9273578D600A2FCD4 /* Frameworks */,
+				FDB0C0DA273578D600A2FCD4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rocket Game";
+			productName = "Rocket Game";
+			productReference = FDB0C0DC273578D600A2FCD4 /* Rocket Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDB0C0D4273578D600A2FCD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					FDB0C0DB273578D600A2FCD4 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = FDB0C0D7273578D600A2FCD4 /* Build configuration list for PBXProject "Rocket Game" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDB0C0D3273578D600A2FCD4;
+			productRefGroup = FDB0C0DD273578D600A2FCD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDB0C0DB273578D600A2FCD4 /* Rocket Game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDB0C0DA273578D600A2FCD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3D595427371E8300D6AE50 /* theboldfont.ttf in Resources */,
+				FDD21D7C2739DD5100E2BC20 /* backingAudio.mp3 in Resources */,
+				FDB0C0EB273578D600A2FCD4 /* Main.storyboard in Resources */,
+				FDB0C0E2273578D600A2FCD4 /* GameScene.sks in Resources */,
+				FDB0C0ED273578D800A2FCD4 /* Assets.xcassets in Resources */,
+				FD3D59502737158C00D6AE50 /* explosionSound.mp3 in Resources */,
+				FDB0C0F0273578D800A2FCD4 /* LaunchScreen.storyboard in Resources */,
+				FD3D595227371B0600D6AE50 /* bulletSound.mp3 in Resources */,
+				FDB0C0E4273578D600A2FCD4 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDB0C0D8273578D600A2FCD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD21D7A2739CBCC00E2BC20 /* MainMenuScene.swift in Sources */,
+				FDB0C0E6273578D600A2FCD4 /* GameScene.swift in Sources */,
+				FDB0C0E8273578D600A2FCD4 /* GameViewController.swift in Sources */,
+				FDFFE99727386B5F008FEB60 /* GameOverScene.swift in Sources */,
+				FDB0C0E0273578D600A2FCD4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FDB0C0E9273578D600A2FCD4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB0C0EA273578D600A2FCD4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDB0C0EE273578D800A2FCD4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDB0C0EF273578D800A2FCD4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDB0C0F1273578D800A2FCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDB0C0F2273578D800A2FCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDB0C0F4273578D800A2FCD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4765WXVJQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rocket-Game-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrey-Sushkov.Rocket-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDB0C0F5273578D800A2FCD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 4765WXVJQU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rocket-Game-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Andrey-Sushkov.Rocket-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDB0C0D7273578D600A2FCD4 /* Build configuration list for PBXProject "Rocket Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB0C0F1273578D800A2FCD4 /* Debug */,
+				FDB0C0F2273578D800A2FCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDB0C0F3273578D800A2FCD4 /* Build configuration list for PBXNativeTarget "Rocket Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDB0C0F4273578D800A2FCD4 /* Debug */,
+				FDB0C0F5273578D800A2FCD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDB0C0D4273578D600A2FCD4 /* Project object */;
+}
